@@ -1,0 +1,18 @@
+.test{
+    background: #ff0000;
+    font-size: 50px;
+    font-weight: bold;
+ 
+    -webkit-animation: my 700ms infinite;
+   -moz-animation: my 700ms infinite;
+   -o-animation: my 700ms infinite;
+   animation: my 700ms infinite;
+    display: inline-block;
+    padding: 20px;
+    
+}
+@keyframes my {
+    0%{ color: yellow;}
+    50%{ color: gray;}
+    100%{ color: yellow;}
+}
